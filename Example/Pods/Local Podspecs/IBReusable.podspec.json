@@ -1,0 +1,22 @@
+{
+  "name": "IBReusable",
+  "version": "0.1.0",
+  "summary": "A short description of IBReusable.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/andrebraga/IBReusable",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "André Braga": "code@andrebraga.com"
+  },
+  "source": {
+    "git": "https://github.com/andrebraga/IBReusable.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "IBReusable/Classes/**/*"
+}

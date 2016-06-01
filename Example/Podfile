@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IBReusable_Example' do
+  pod 'IBReusable', :path => '../'
+
+  target 'IBReusable_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

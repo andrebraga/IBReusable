@@ -1,0 +1,6 @@
+framework module IBReusable {
+  umbrella header "IBReusable-umbrella.h"
+
+  export *
+  module * { export * }
+}

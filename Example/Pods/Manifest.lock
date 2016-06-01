@@ -1,0 +1,16 @@
+PODS:
+  - IBReusable (0.1.0)
+
+DEPENDENCIES:
+  - IBReusable (from `../`)
+
+EXTERNAL SOURCES:
+  IBReusable:
+    :path: ../
+
+SPEC CHECKSUMS:
+  IBReusable: 46710e33c3bcb4d5785f5eb9d8552074a9ba729d
+
+PODFILE CHECKSUM: ba0846d918de8f69539d8bfca5c6a14d1bff61bf
+
+COCOAPODS: 1.0.0
