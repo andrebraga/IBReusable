@@ -10,7 +10,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-ARC is required, Xcode 4.4+ is required.
+ARC is required, Xcode 4.4+ is required. Xcode 6 nullabilily attributes were used but could be stripped out or defined away if not supported by your compiler version.
 
 It is probably compatible with any system version that supports ARC and compiler that supports literal array syntax. Other than guarded autolayout calls that are all iOS 6.0 compatible, only APIs introduced in iOS 4.0 are used.
 
