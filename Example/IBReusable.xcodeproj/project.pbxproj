@@ -20,9 +20,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		65069ED51CFF9C22006B833E /* AdderComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65069ED21CFF9C22006B833E /* AdderComponent.xib */; };
-		65069ED61CFF9C22006B833E /* AdderComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 65069ED41CFF9C22006B833E /* AdderComponent.m */; };
-		65069ED91CFF9C47006B833E /* FramingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65069ED81CFF9C47006B833E /* FramingView.m */; };
+		6552DB851E14223800066AD1 /* AdderComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6552DB801E14223800066AD1 /* AdderComponent.xib */; };
+		6552DB861E14223800066AD1 /* AdderComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6552DB821E14223800066AD1 /* AdderComponent.m */; };
+		6552DB871E14223800066AD1 /* FramingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6552DB841E14223800066AD1 /* FramingView.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9A14C6F6812EC3CCD6323152 /* Pods_IBReusable_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69745E3E395E58BEED9DD319 /* Pods_IBReusable_Tests.framework */; };
 		D3711D780E6CCC3E256D9C01 /* Pods_IBReusable_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 855AF47DB5E463BF95EDC618 /* Pods_IBReusable_Example.framework */; };
@@ -61,11 +61,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		65069ED21CFF9C22006B833E /* AdderComponent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AdderComponent.xib; path = ../AdderComponent.xib; sourceTree = "<group>"; };
-		65069ED31CFF9C22006B833E /* AdderComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = AdderComponent.h; path = ../AdderComponent.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		65069ED41CFF9C22006B833E /* AdderComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = AdderComponent.m; path = ../AdderComponent.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		65069ED71CFF9C47006B833E /* FramingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = FramingView.h; path = ../FramingView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		65069ED81CFF9C47006B833E /* FramingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = FramingView.m; path = ../FramingView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6552DB801E14223800066AD1 /* AdderComponent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AdderComponent.xib; path = IBReusable/AdderComponent.xib; sourceTree = SOURCE_ROOT; };
+		6552DB811E14223800066AD1 /* AdderComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdderComponent.h; path = IBReusable/AdderComponent.h; sourceTree = SOURCE_ROOT; };
+		6552DB821E14223800066AD1 /* AdderComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdderComponent.m; path = IBReusable/AdderComponent.m; sourceTree = SOURCE_ROOT; };
+		6552DB831E14223800066AD1 /* FramingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FramingView.h; path = IBReusable/FramingView.h; sourceTree = SOURCE_ROOT; };
+		6552DB841E14223800066AD1 /* FramingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FramingView.m; path = IBReusable/FramingView.m; sourceTree = SOURCE_ROOT; };
 		69745E3E395E58BEED9DD319 /* Pods_IBReusable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBReusable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		855AF47DB5E463BF95EDC618 /* Pods_IBReusable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBReusable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -194,11 +194,11 @@
 		65069EDA1CFF9C57006B833E /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				65069ED21CFF9C22006B833E /* AdderComponent.xib */,
-				65069ED31CFF9C22006B833E /* AdderComponent.h */,
-				65069ED41CFF9C22006B833E /* AdderComponent.m */,
-				65069ED71CFF9C47006B833E /* FramingView.h */,
-				65069ED81CFF9C47006B833E /* FramingView.m */,
+				6552DB801E14223800066AD1 /* AdderComponent.xib */,
+				6552DB811E14223800066AD1 /* AdderComponent.h */,
+				6552DB821E14223800066AD1 /* AdderComponent.m */,
+				6552DB831E14223800066AD1 /* FramingView.h */,
+				6552DB841E14223800066AD1 /* FramingView.m */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -299,7 +299,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				65069ED51CFF9C22006B833E /* AdderComponent.xib in Resources */,
+				6552DB851E14223800066AD1 /* AdderComponent.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,8 +414,8 @@
 			files = (
 				6003F59E195388D20070C39A /* IBRAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* IBRViewController.m in Sources */,
-				65069ED91CFF9C47006B833E /* FramingView.m in Sources */,
-				65069ED61CFF9C22006B833E /* AdderComponent.m in Sources */,
+				6552DB871E14223800066AD1 /* FramingView.m in Sources */,
+				6552DB861E14223800066AD1 /* AdderComponent.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
