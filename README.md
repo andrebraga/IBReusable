@@ -6,6 +6,12 @@ The actual code is implemented as a category in case you can't subclass IBReusab
 
 ## Example
 
+On the left you can see the component being designed as a XIB, and on the right you find it reused as many times as you wish. Whatever is set as the parameters of IB_INSPECTABLE properties become the defaults when dragging and dropping on the Storyboard and other XIBs.
+
+It is as simple as dragging a blank UIView into the canvas and changing its class.
+
+![Sample screenshot of component reuse](Screenshot.png)
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
