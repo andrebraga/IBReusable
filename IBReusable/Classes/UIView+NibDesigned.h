@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (NibDesigned)
+  
+@property(nonatomic) IBInspectable BOOL translatesAutoresizingMaskIntoConstraints NS_AVAILABLE_IOS(6_0);
 
 + (_Nullable instancetype)ibr_loadFromNib;
 - (_Nullable id)ibr_awakeAfterUsingCoder;
