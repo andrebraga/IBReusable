@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IBReusable'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Reusable, Interface Builder designed views, done right'
 
   s.description      = <<-DESC
@@ -17,7 +17,7 @@ Xcode 4 removed support for Xcode 3 plugins, including visual components. Thankf
 
   s.homepage         = 'https://github.com/andrebraga/IBReusable'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'André Braga' => 'code@andrebraga.com' }
+  s.author           = { 'André Braga' => 'code@andrebraga.com' }
   s.source           = { :git => 'https://github.com/andrebraga/IBReusable.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '7.0'
